@@ -24,9 +24,10 @@ public class RemoveWovels {
     }
 
     private static void iWantToCallSomeMethod(String s) {
-        Character[] vowels={'a','e','i','o','u'};
-        for (int i = 0; i <= s.length(); i++) {
-            if (s.contains("e") || s.contains("o") || s.contains("u") ||)
-        }
+        
+    	Character[] vowels={'a','e','i','o','u'};
+        
+    	for (int i = 0; i <= s.length(); i++) { }
+    
     }
 }
