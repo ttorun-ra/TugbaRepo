@@ -1,4 +1,4 @@
-package Day15;
+package Homework;
 
 import java.util.Random;
 

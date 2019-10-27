@@ -1,4 +1,4 @@
-package Day15;
+package Homework;
 
 public class HwOctober26thTask {
 
