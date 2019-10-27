@@ -1,4 +1,4 @@
-package Day16;
+package Day14;
 
 public class ArrayHomework {
 
@@ -13,12 +13,11 @@ public class ArrayHomework {
 			
 			sum= sum+myArray[i];
 			average=sum/myArray.length;
+			
 		}
+		
 		System.out.println(sum);
 		System.out.println(average);
-
-			
-
+		
 	}
-
 }
