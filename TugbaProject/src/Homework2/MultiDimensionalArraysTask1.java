@@ -1,4 +1,4 @@
-package Day16;
+package Homework2;
 
 public class MultiDimensionalArraysTask1 {
 	public static void main(String[] args) {
@@ -13,18 +13,21 @@ public class MultiDimensionalArraysTask1 {
 //	System.out.println ("the length is" + NL.length);
 //		System.out.println(NL[0][0]+NL[1][0]); 
 		
-		for (int i = 0; i <=NL.length; i++){
+		for (int i = 0; i <NL.length-1; i++){
 			
-		for(int j=0;j<=NL[i].length;j++) {
+		for(int j=0;j<NL[i].length;j++) {
 		
-				System.out.println("NL  " + NL[i][j]);
-				
 				
 //			System.out.println(NL[0][i]+NL[1][i]);
-		}
+		
 
-        
-		}		 
+		System.out.print("\nNL:  " + NL[i][j] + " " + NL[i+1][j]);
+		
+		}		
+		
+		
+		
+	}
 	}
 }
 	

@@ -1,4 +1,4 @@
-package Homework;
+package Homework2;
 
 public class HwOctober27thDimensionalArrays {
 
