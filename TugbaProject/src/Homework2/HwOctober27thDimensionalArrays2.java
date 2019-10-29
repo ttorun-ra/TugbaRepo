@@ -32,23 +32,25 @@ public class HwOctober27thDimensionalArrays2 {
 		double sumBread=0;
 		
 		int[][] items= {{3,4,5},{3,3,3},{4,5,4},{1,1,2}};
+		//  [0][0]
+		          
+		//[1][0]
+		//[2][0]
+		//[3][0]
+		for(int i=0; i< items.length-1;i++) {
+			int sum=0;
 		
-			for(int j=0; j<3 ;j++) {
+			for(int j=0; j<=items[i].length; j++) {
+				sum+=items[j][i];
+			
 			 
-				 sumApple= sumApple + items[0][j];
-				
-				 sumMilk= sumMilk  + items[1][j];
-				 
-				 sumMeat= sumMeat  + items[2][j];
-				 
-				 sumBread= sumBread + items[3][j];
+			 System.out.println(items[j][i]);
 				
 			 
 			}
-			 System.out.println("The average price of apples is : " + sumApple/3);
-			 System.out.println("The average price of milk is : " + sumMilk/3);
-			 System.out.println("The average price of meat is : " +  sumMeat/3);
-			 System.out.println("The average price of bread is : " + sumBread/3);
+			System.out.println("Sum is: " + sum);
+			
+		}	
 				
 		
 	}
