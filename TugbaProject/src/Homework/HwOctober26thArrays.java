@@ -13,18 +13,33 @@ public class HwOctober26thArrays {
 		Random rand= new Random();
 		
 		int [] arr = new int [20];
-		
+		int evenCounter=0;
 		for (int i =0; i<arr.length;i++) {
 			
+			
 			arr[i]=rand.nextInt(20);
-//			System.out.println(arr[i]);
 			
-		if(arr[i]%2==0) {
-			
-			System.out.println(arr[i] + "  it is an even number");
-		}
-		}
-
+			if(arr[i]%2==0) {
+				
+				System.out.println( "  it is an even number" + arr[i]);
+				evenCounter++;
+	
 	}
+		}
+			
+			System.out.println( "the number of even numbers in your array: " + evenCounter);
+		}
+		}
 
-}
+//
+//		int[] evens = {13, 14, 15, 20, 21};
+//        int counter = 0;
+//        for (int i = 0; i < evens.length; i++) {
+//            int e = evens[i];
+//            if (e % 2 == 0) {
+//                counter++;
+//            }
+//        }
+//        System.out.println("the number of even numbers in your array: " + counter);
+//}
+//}
