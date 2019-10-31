@@ -23,13 +23,7 @@ public class HwOctober27thDimensionalArrays2 {
 		int[]meat= {4,5,4};
 		int[]bread= {1,1,2};
 		
-		int sumApple=0;
 		
-		int sumMilk=0;
-		
-		double sumMeat=0;
-		
-		double sumBread=0;
 		
 		int[][] items= {{3,4,5},{3,3,3},{4,5,4},{1,1,2}};
 		//  [0][0]
