@@ -1,4 +1,4 @@
-package Day17;
+package HwOctober29thStockProblem;
 
 public class HWStockProblem2 {
 
