@@ -1,12 +1,9 @@
-package Day16;
+package Day19_HashSet;
 
-public class ex {
+public class ArrayListTask2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		int num=5;
-		
 
 	}
 

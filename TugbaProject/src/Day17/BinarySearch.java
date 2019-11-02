@@ -6,8 +6,8 @@ public class BinarySearch {
 		// Returns index of x if it is present in arr[],
 	    // else return -1
 	    BinarySearch ob = new BinarySearch();
-	    int arr[] = {1,2,3,4,5};
-        int target = 4;
+	    int arr[] = {4,5,3,9,1,8,2,6};
+        int target = 8;
         
         int size = arr.length;
         

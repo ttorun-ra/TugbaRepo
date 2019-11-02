@@ -14,7 +14,9 @@ public class MultiDimensionalArraysTask2 {
 		
 		
 		
-          int [] [] examResults= { {56,87,95},{85,65,100}};
+          int [] [] examResults= { {56,87,95},
+        		                   {85,65,100}
+          };
           
           for(int i=0; i<examResults.length;i++) {
         	  
