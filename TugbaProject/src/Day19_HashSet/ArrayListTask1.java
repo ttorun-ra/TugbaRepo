@@ -72,6 +72,7 @@ public class ArrayListTask1 {
 		      System.out.println(nlist);
 		      Collections.copy(aalist,nlist);
 		      System.out.println(nlist);
+		      
 		    //11. Write a Java program to reverse elements in a array list.
 		      
 		      Collections.reverse(aalist);
