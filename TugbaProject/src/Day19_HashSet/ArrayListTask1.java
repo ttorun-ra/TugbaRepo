@@ -75,15 +75,21 @@ public class ArrayListTask1 {
 		      
 		    //11. Write a Java program to reverse elements in a array list.
 		      
+		     // 1st way
 		      Collections.reverse(aalist);
 		      System.out.println(aalist);
 		      System.out.println("-----------------");
-		      
+		     // 2nd way 
+		      ArrayList <String >List2 = new ArrayList<String>(); 
 		      for (int i=aalist.size()-1; i>=0;i--) {
-		    	  System.out.println(aalist.get(i));
-		    	  System.out.println();
+		    	  String element=aalist.get(i);
+		    	  System.out.println(element);
+		    	  List2.add(element);
 		      }
+		      aalist=List2;
+		      System.out.println(List2);
 	}
+		      
 	
 	}
 	
