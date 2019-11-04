@@ -54,19 +54,17 @@ public class JavaHashMapTask18 {
 			char[] c=s.toCharArray();
 			
 			map1.put(c[i], 0);
-		
-			System.out.println(map1);
-		
-	if(map1.containsKey(c[i])) {
-		
-		map1.put(c[i], 1);
-	}else
-		ma
-		 
-	
+			
+			for(char c1:c ) {
+				if(map1.equals(c)) {
+					
+					map1.put(c1,map1.get(c)+1);
+				}else
+					map1.put(c1,1);
+			}
 		}
-
-	
-
-
-
+		System.out.println(map1);
+	}
+}
+		
+//		
