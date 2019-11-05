@@ -52,11 +52,16 @@ public class AnagramHw {
                 }
 	
                 if(map==map1) {
-                }System.out.println("they are anagram");
+                	 
+                	
+                System.out.println("they are anagram");
 	            	
-	        }
+	        } else {
+	        	System.out.println("they are not anagram");
 	
                 }
+}
+}
 	
 
 

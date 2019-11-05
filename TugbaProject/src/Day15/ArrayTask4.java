@@ -26,32 +26,32 @@ public class ArrayTask4 {
 //}
 //            
         }
-        String [] stringNumbers= new String[15];
-        for(int i=0; i<stringNumbers.length;i++) {
-        	
-        	stringNumbers[i]="" +i;
-        }
-        String stringSum="";
-        
-        for(String s: stringNumbers) {
-        	stringSum+=s + " ";
-        }	
-        	System.out.println("stringSum: " + stringSum); 
-        	
-        	int[] intNumbers= new int[15];
-        	
-        	for(int i=0;i<intNumbers.length;i++) {
-        		
-        		  intNumbers[i] = Integer.valueOf(stringNumbers[i]);
-            }
-
-            int intSum = 0;
-            for (int n : intNumbers) {
-                intSum += n;
-            }
-            System.out.println("IntSum: " + intSum);
-
-        	}
+//        String [] stringNumbers= new String[15];
+//        for(int i=0; i<stringNumbers.length;i++) {
+//        	
+//        	stringNumbers[i]="" +i;
+//        }
+//        String stringSum="";
+//        
+//        for(String s: stringNumbers) {
+//        	stringSum+=s + " ";
+//        }	
+//        	System.out.println("stringSum: " + stringSum); 
+//        	
+//        	int[] intNumbers= new int[15];
+//        	
+//        	for(int i=0;i<intNumbers.length;i++) {
+//        		
+//        		  intNumbers[i] = Integer.valueOf(stringNumbers[i]);
+//            }
+//
+//            int intSum = 0;
+//            for (int n : intNumbers) {
+//                intSum += n;
+//            }
+//            System.out.println("IntSum: " + intSum);
+//
+//        	}
         }
         
     

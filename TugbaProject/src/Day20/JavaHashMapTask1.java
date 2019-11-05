@@ -29,14 +29,14 @@ public class JavaHashMapTask1 {
 		       // /2. Write a Java program to count the number
 		        //  of key-value (size) mappings in a map.
 		       
-		            HashMap<Integer, String> map = new HashMap<>();
-		            map.put(1, "Red");
-		            map.put(2, "Green");
-		            map.put(3, "Black");
-		            map.put(4, "White");
-		            map.put(5, "Blue");
-
-		            System.out.println("Size of map is: " + map.size());
+//		            HashMap<Integer, String> map = new HashMap<>();
+//		            map.put(1, "Red");
+//		            map.put(2, "Green");
+//		            map.put(3, "Black");
+//		            map.put(4, "White");
+//		            map.put(5, "Blue");
+//
+//		            System.out.println("Size of map is: " + map.size());
 			
 		}
 
