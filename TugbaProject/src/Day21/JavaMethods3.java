@@ -1,19 +1,23 @@
 package Day21;
 
 
-
-	public class JavaMethods3{
-		int w=7;
-          Vehicle v=new Vehicle();
-		
-	}
-	
-	class Vehicle {
-		public int doors;
-		public int speed;
-		public String color;
-		
-		public void run() {
-
+public class JavaMethods3 {
+    public static void main(String[] args) {
+        Vehicle v =  new Vehicle(); // calling vehicle
+        
+        v.doors = 4;
+        v.speed = 65;
+        v.run();
+    	
+ 
+    }
 }
-	}
+class Vehicle{
+    public int doors;
+    public int speed;
+    public  String color;
+    public void run(){  //if you put private, main class wont see it
+        System.out.println("I am running");
+
+    }
+}
