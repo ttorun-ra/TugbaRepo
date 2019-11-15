@@ -9,15 +9,11 @@ public class Task7 {
 		
 		int max=0;
 		for(int i=0; i<num.length;i++) {
-			
-			
+						
 			if(num[i]>max) {
-				max=num[i];
-				
+				max=num[i];				
 			}
-		}
-		
-				System.out.println("The largest number is: "+ max);
-		
+		}		
+				System.out.println("The largest number is: "+ max);		
 	}
 }
