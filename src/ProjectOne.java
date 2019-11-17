@@ -13,9 +13,12 @@ public class ProjectOne {
      * Hint: use toCharArray method
      */
     public char[] getChars(String number) {
-        char[] eachWord = {};
+        char[] eachWord = number.toCharArray();
         // write your code here
 
+        for (char c:eachWord ) {
+
+        }
 
         // end of code
         return eachWord;
@@ -26,8 +29,9 @@ public class ProjectOne {
      * Hint: use split method
      */
     public String[] getWords(String sentence) {
-        String[] eachWord = {};
+        String[] eachWord = sentence.split(" ");
         // write your code here
+
 
 
         // end of code
@@ -41,8 +45,14 @@ public class ProjectOne {
      * total should be 10;
      */
     public int total(ArrayList<Integer> myList) {
-        int total = Integer.MIN_VALUE;
+        int total = 0;
         // write your code here
+
+        for(int i=0; i<myList.size();i++) {
+
+           total=total+ myList.get(i);
+
+        }
 
 
         // end of code
@@ -61,6 +71,14 @@ public class ProjectOne {
         // write your code here
 
 
+        for(int i:myList) {
+            if (i%2==0) {
+
+                total=total+i;
+
+            }
+
+        }
         // end of code
         return total;
     }
@@ -77,6 +95,12 @@ public class ProjectOne {
         // write your code here
 
 
+        for(int i:myList) {
+            if (i % 2 != 0) {
+                total=total+i;
+            }
+        }
+
         // end of code
         return total;
     }
@@ -88,6 +112,7 @@ public class ProjectOne {
         String upperCaseName = null;
         // write your code here
 
+         upperCaseName=name.toUpperCase();
 
         // end of code
         return upperCaseName;
@@ -100,6 +125,7 @@ public class ProjectOne {
         String lowerCaseName = null;
         // write your code here
 
+        lowerCaseName=name.toLowerCase();
 
         // end of code
         return lowerCaseName;
@@ -113,6 +139,7 @@ public class ProjectOne {
         String result = "";
         // write your code here
 
+        result=Integer.toString(number);
 
         // end of code
         return result;
@@ -126,6 +153,7 @@ public class ProjectOne {
         String result = null;
         // write your code here
 
+        result=word.substring(0,3);
 
         // end of code
         return result;
@@ -140,6 +168,9 @@ public class ProjectOne {
         // write your code here
 
 
+        int length=word.length();
+
+        result=word.substring(length-3,length-1);
         // end of code
         return result;
     }
@@ -152,7 +183,11 @@ public class ProjectOne {
         boolean result = false;
         // write your code here
 
+        int c=Integer.parseInt(b);
+        if(a==c) {
 
+            result = true;
+        }
         // end of code
         return result;
     }
@@ -164,6 +199,7 @@ public class ProjectOne {
         String result = null;
         // write your code here
 
+        result=str.trim();
 
         // end of code
         return result;
@@ -176,6 +212,10 @@ public class ProjectOne {
     public List<Integer> multipliedBy2(List<Integer> numbers) {
         List<Integer> result = new ArrayList<>();
         // write your code here
+
+        numbers.replaceAll(n -> n * 2);
+        result=numbers;
+
 
 
         // end of code
@@ -190,6 +230,8 @@ public class ProjectOne {
         List<String> result = new ArrayList<>();
         // write your code here
 
+        words.replaceAll(n -> n +n);
+        result=words;
 
         // end of code
         return result;
@@ -201,6 +243,14 @@ public class ProjectOne {
     public boolean hasDuplicates(Character[] characters) {
         boolean result = false;
         // write your code here
+        for(int i=0;i<characters.length;i++){
+            for(int j=i+1;j<characters.length;j++){
+
+                if(characters[i]==characters[j]&& i!=j){
+                    result=true;
+                }
+            }
+        }
 
 
         // end of code
