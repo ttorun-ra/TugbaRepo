@@ -29,8 +29,9 @@ public class AliOfficeHour {
 		 
 		 public void method1() {
 			 
-			 System.out.println(id);
-			 System.out.println("name is here--->>"+name);
+//			 System.out.println(id);
+//			 
+//			 System.out.println("name is here--->>"+name);
 			 countofStudent++;
 			 System.out.println("count of student here---->"+countofStudent);
 			 nonStaticCountofStudent++;
@@ -40,24 +41,27 @@ public class AliOfficeHour {
 		 
 		 public static void methodStatic() {
 			 countofStudent=10;
+			 System.out.println(countofStudent);
+		 }		 
 			 
-			 
-			 
-//		 public static void main(String[] args) {
-//			 
-//			 
-////			 System.out.println(id);
-////			 System.out.println("name is here--->>"+name);
-//			 
-//			 AliOfficeHour o1= new AliOfficeHour();
-//			 
-//			 o1.method1();
-//			 System.out.println(o1.name);
-//			 
-//			 AliOfficeHour o2= new AliOfficeHour();
-//			 
-//			 o2.method1();
+
+
+		 public static void main(String[] args) {
+////			 
+////			 
+//	 System.out.println(id);
+//		 System.out.println("name is here--->>"+name);
+////			 
+	 AliOfficeHour o1= new AliOfficeHour();
+////			 
+	 o1.method1();
+	 System.out.println(o1.name);
+////			 
+	 AliOfficeHour o2= new AliOfficeHour();
+//		 
+	 o2.method1();
 			 
 	}
-
 }
+
+
