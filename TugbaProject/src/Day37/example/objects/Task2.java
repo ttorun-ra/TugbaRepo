@@ -12,12 +12,14 @@ class Fruits{
 	public String weight;
 	public boolean taste;
 	
-} class Car{
+} 
+class Vehicle{
 	
 	public String brand;
 	public String year;
 	
-}class School{
+}
+class School{
 	public String director;
 	public String topic;
 	
@@ -26,23 +28,24 @@ class Fruits{
 class AllInfo{
 	
 	public Fruits fruit;
-	public Car car;
+	public Vehicle vehicle;
 	public School school;
 	
 	
 	
       public AllInfo(String name,String weight,String brand, String year,String director,String topic) {
+    	  
     	  fruit.name=name;
     	  fruit.weight=weight;
-    	  car.brand=brand;
-    	  car.year=year;
+    	  vehicle.brand=brand;
+    	  vehicle.year=year;
     	  school.director=director;
     	  school.topic=topic;
-      }
-	     public String toString() {
+      
+      } public String toString() {
 		
 		return "Fruit: " + fruit.name+" "+fruit.weight+
-				"Car: "+ car.brand+" "+ " "+car.year+
+				"Car: "+ vehicle.brand+" "+ " "+vehicle.year+
 				"School: "+ school.director+" "+ school.topic;
 	
 		
@@ -56,7 +59,8 @@ public class Task2 {
 		
 		
 		AllInfo info=new AllInfo("Apple","3","Passat","2005","Bergen","Math");
-		System.out.println(info);
+		
+		System.out.println(info.toString());
 
 	}
 
