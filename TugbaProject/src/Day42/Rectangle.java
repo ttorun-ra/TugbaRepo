@@ -2,20 +2,17 @@ package Day42;
 
 public class Rectangle extends Shape {
 
-	private double length;
-	private double width;
+	  private double width;
+	    private double length;
 
-	public Rectangle(String color, boolean filled,double width,double length) {
+	    public Rectangle(String color, boolean filled, double width, double length) {
+	        setColor(color);
+	        setFilled(filled);
 
-		setColor(color);
-		setFilled(filled);
-		
-		this.width=width;
-		this.length=length;
-
+	        this.width = width;
+	        this.length = length;
+	    }
 	}
-
-}
 //public Rectangle(String name, int corners, String color, boolean filled) {
 //    super(name, corners, color, filled);
 //}
