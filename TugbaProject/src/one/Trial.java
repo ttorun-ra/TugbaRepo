@@ -9,10 +9,13 @@ public class Trial {
 		StringBuilder b= new StringBuilder();
 		
 		b.append("Aydin");
+		b.append(name);
 		
 		String ne=b.toString();
 		
-		System.out.println(ne);
+		//System.out.println(ne);
+		
+		System.out.println(ne.toString());
 
 	}
 	

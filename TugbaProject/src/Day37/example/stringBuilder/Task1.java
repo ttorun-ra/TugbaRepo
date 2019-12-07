@@ -22,9 +22,7 @@ public class Task1 {
 		
 	     }        
 		     result=sb.toString();
-	    	return result;
-		       	   		
-	
+	    	return result;		       	   		
 	     }   	
 	    
 // StringBuilder sb=new StringBuilder();

@@ -2,7 +2,7 @@ package Day39.OOP_Inheritance;
 
 public class Test12 {
 	
-public void print() {
+      public void print() {
 	
 	System.out.println("Shirin");
 }

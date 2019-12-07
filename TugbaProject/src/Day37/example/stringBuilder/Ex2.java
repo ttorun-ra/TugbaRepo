@@ -7,11 +7,16 @@ public class Ex2 {
 //	      s1 = "a";
 //	      s2 = "ab";
 //	      s3 = "abc";
-
+//              String a=new String();
+//             a.length();
+//             a.substring(beginIndex)
+              
 	        StringBuilder sb = new StringBuilder();
+	        
 	        sb.append("a");
-	        sb.append("b");
+	        sb.append("b");  
 	        sb.append("c");
+	    
 	        
 	        String reversedString= sb.reverse().toString();
 	        

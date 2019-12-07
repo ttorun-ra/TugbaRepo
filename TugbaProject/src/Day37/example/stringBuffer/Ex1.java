@@ -15,7 +15,8 @@ public class Ex1 {
 		for(char i=65; i<=90 ;i++) {
 			// for(char letter='A'; letter<='Z'; letter++){
 			
-			sb.append(i);						
+			sb.append(i);		
+			
 			
 	}
 		System.out.println(sb.toString());
